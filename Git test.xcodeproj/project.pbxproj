@@ -21,6 +21,7 @@
 		26AE1D4419141BA8008CAD60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AE1D2619141BA8008CAD60 /* UIKit.framework */; };
 		26AE1D4C19141BA8008CAD60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26AE1D4A19141BA8008CAD60 /* InfoPlist.strings */; };
 		26AE1D4E19141BA8008CAD60 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AE1D4D19141BA8008CAD60 /* Git_testTests.m */; };
+		26AE1D5C19142032008CAD60 /* WSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AE1D5B19142032008CAD60 /* WSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		26AE1D4919141BA8008CAD60 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		26AE1D4B19141BA8008CAD60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26AE1D4D19141BA8008CAD60 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		26AE1D5A19142032008CAD60 /* WSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTest.h; sourceTree = "<group>"; };
+		26AE1D5B19142032008CAD60 /* WSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				26AE1D3419141BA8008CAD60 /* Main.storyboard */,
 				26AE1D3719141BA8008CAD60 /* WSViewController.h */,
 				26AE1D3819141BA8008CAD60 /* WSViewController.m */,
+				26AE1D5A19142032008CAD60 /* WSTest.h */,
+				26AE1D5B19142032008CAD60 /* WSTest.m */,
 				26AE1D3A19141BA8008CAD60 /* Images.xcassets */,
 				26AE1D2919141BA8008CAD60 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AE1D3319141BA8008CAD60 /* WSAppDelegate.m in Sources */,
+				26AE1D5C19142032008CAD60 /* WSTest.m in Sources */,
 				26AE1D2F19141BA8008CAD60 /* main.m in Sources */,
 				26AE1D3919141BA8008CAD60 /* WSViewController.m in Sources */,
 			);
